@@ -1,0 +1,2 @@
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("view/navigation.html","<nav>\r\n	<div class=\"nav-wrapper green accent-2\">\r\n		<span class=\"blue-text text-darken-4\">Notes</span>\r\n	</div>\r\n</nav>");
+$templateCache.put("view/note.html","<div class=\"card lime lighten-5\">\r\n	<div class=\"card-content black-text\">\r\n		<span class=\"card-title\" ng-bind=note.title></span>\r\n		<p ng-bind=note.text></p>\r\n	</div>\r\n</div>");}]);

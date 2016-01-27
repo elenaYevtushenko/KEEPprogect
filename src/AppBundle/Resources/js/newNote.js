@@ -1,9 +1,9 @@
 (function(){
 	angular.module('app')
-		.directive('navigation', function()
+		.directive('newNote', function()
 		{
 			return {
-				templateUrl: "navigation.html"
+				templateUrl: "view/newNote.html"
 			};
 		});
 })();
