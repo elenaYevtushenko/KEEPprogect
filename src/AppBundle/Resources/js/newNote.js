@@ -3,7 +3,7 @@
 		.directive('newNote', function()
 		{
 			return {
-				templateUrl: "view/newNote.html"
+				templateUrl: "newNote.html"
 			};
 		});
 })();

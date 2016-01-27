@@ -3,7 +3,7 @@
 		.directive('navigation', function()
 		{
 			return {
-				templateUrl: "view/navigation.html"
+				templateUrl: "navigation.html"
 			};
 		});
 })();
